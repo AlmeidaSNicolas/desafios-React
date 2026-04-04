@@ -1,4 +1,4 @@
-# 🚀 Desafios de Frontend: Trilha Junior React + TypeScript
+# 🚀 Desafios de Frontend: React + TypeScript
 
 Este repositório contém uma série de exercícios práticos focados em situações Reais do dia a dia de um desenvolvedor Frontend Junior/Estagiário. O objetivo aqui é dominar a tríade: **Estado, Efeito e Tipagem.**
 
