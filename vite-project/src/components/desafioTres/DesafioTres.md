@@ -1,4 +1,4 @@
-Desafio 3: Localizador de Usuários (Github ou JSONPlaceholder)
+Localizador de Usuários (Github ou JSONPlaceholder)
 O Cenário: Você precisa buscar usuários em uma API externa, mas a busca deve acontecer automaticamente enquanto o usuário digita, sem precisar de um botão "Buscar".
 
 O que você vai precisar fazer:

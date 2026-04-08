@@ -1,4 +1,4 @@
-Desafio 2: O App de Clima (Consumo de API)
+O App de Clima (Consumo de API)
 
 Crie um novo componente chamado Clima.tsx.
 

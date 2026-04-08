@@ -18,6 +18,7 @@ Este repositório contém uma série de exercícios práticos focados em situaç
 * **Funcionalidade:** Uma listagem de produtos que reage instantaneamente ao que o usuário digita e permite filtrar por categorias (Eletrônicos, Móveis, etc).
 * **Aprendizado:** Diferença entre variáveis comuns e estado reativo.
 
+
 ### 2. App de Clima Real-Time (Consumo de API)
 * **Conceito:** Sincronização de efeitos colaterais.
 * **Funcionalidade:** Busca automática da temperatura e velocidade do vento via Open-Meteo API assim que o componente é montado.
