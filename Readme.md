@@ -1,6 +1,6 @@
 # 🚀 Desafios de Frontend: React + TypeScript
 
-Este repositório contém uma série de exercícios práticos focados em situações Reais do dia a dia de um desenvolvedor Frontend Junior/Estagiário. O objetivo aqui é dominar a tríade: **Estado, Efeito e Tipagem.**
+Este repositório contém uma série de exercícios práticos focados em situações reais do dia a dia de um desenvolvedor Frontend Junior/Estagiário. O objetivo aqui é dominar a tríade: **Estado, Efeito e Tipagem.**
 
 ## 🧠 O que estou praticando?
 
@@ -8,6 +8,7 @@ Este repositório contém uma série de exercícios práticos focados em situaç
 * **TypeScript:** Tipagem rigorosa de interfaces, eventos de formulário e retornos de API (adeus, `any`!).
 * **Manipulação de Dados:** Filtros, mapeamentos e transformações de arrays em tempo real.
 * **Consumo de APIs:** Integração com serviços externos usando `fetch` e tratamento de estados de loading.
+* **Renderização e Componentização:** Criação de componentes reutilizáveis, passagem de `props` e renderização condicional (`true`/`false`).
 
 ---
 
@@ -18,7 +19,6 @@ Este repositório contém uma série de exercícios práticos focados em situaç
 * **Funcionalidade:** Uma listagem de produtos que reage instantaneamente ao que o usuário digita e permite filtrar por categorias (Eletrônicos, Móveis, etc).
 * **Aprendizado:** Diferença entre variáveis comuns e estado reativo.
 
-
 ### 2. App de Clima Real-Time (Consumo de API)
 * **Conceito:** Sincronização de efeitos colaterais.
 * **Funcionalidade:** Busca automática da temperatura e velocidade do vento via Open-Meteo API assim que o componente é montado.
@@ -28,6 +28,21 @@ Este repositório contém uma série de exercícios práticos focados em situaç
 * **Conceito:** `useEffect` com dependências.
 * **Funcionalidade:** Busca de usuários na API JSONPlaceholder disparada automaticamente apenas quando o input atinge um número mínimo de caracteres.
 * **Aprendizado:** Como o React "observa" mudanças em variáveis específicas para disparar novas ações.
+
+### 4. Cartão de Visita Reutilizável (Props e Componentização)
+* **Conceito:** Reutilização de componentes e passagem de propriedades.
+* **Funcionalidade:** Um cartão de visita dinâmico que recebe dados (nome, cargo, empresa) de um componente pai e os exibe de forma estruturada na tela.
+* **Aprendizado:** Como fragmentar a interface em pedaços menores, independentes e dinâmicos usando `props`.
+
+### 5. Contador Inteligente com Trava (State e Eventos)
+* **Conceito:** Gerenciamento de estado local (`useState`) e eventos de clique.
+* **Funcionalidade:** Um contador com botões para incrementar e decrementar, incluindo uma regra de negócio simples de segurança para impedir a exibição de números negativos.
+* **Aprendizado:** Atualização segura de estados e aplicação de regras de validação (condicionais) atreladas à interação do usuário.
+
+### 6. Esconde-Esconde Dinâmico (Renderização Condicional)
+* **Conceito:** Renderização condicional baseada em estados booleanos (`true`/`false`).
+* **Funcionalidade:** Um botão que alterna a visibilidade de uma área secreta na tela, alterando seu próprio texto e seu ícone (Lucide-React) dinamicamente com base no estado atual.
+* **Aprendizado:** Como fazer a interface modificar sua estrutura e reagir visualmente em tempo real através de lógicas booleanas, base para criar modais e menus dropdown.
 
 ---
 
