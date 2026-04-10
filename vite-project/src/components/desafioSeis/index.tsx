@@ -11,8 +11,8 @@ export function DesafioSeis(){
         <>
             <p>Area secreta</p>
 
-        
-            <button onClick={() => setArea(!area)}   >Clique aqui para encontrar a área secreta  </button>
+                           {/* {condição ? "O que mostrar se for TRUE" : "O que mostrar se for FALSE"} */}
+            <button onClick={ () => setArea(!area) }   > { area ? "Ocultar" : 'Mostrar'}  </button>
 
             {area && <p>Parabéns, você encontrou a área secreta!</p>}
         

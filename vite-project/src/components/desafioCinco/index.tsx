@@ -16,8 +16,8 @@ export function DesafioCinco(){
     return(
         <>
             <p  style={{height: 'auto', marginTop: '400px'  ,display: 'flex' , justifyContent: 'center', textAlign: 'center' }} > { numero } </p>
-            <button onClick={(AumentarNumero)}> Aumentar</button>
-            <button onClick={(DimuniurNumero)} style={{ margin: '10px'}} > Diminiur</button>
+            <button onClick={AumentarNumero}> Aumentar</button>
+            <button onClick={DimuniurNumero} style={{ margin: '10px'}} > Diminiur</button>
         </>
     )
 }
