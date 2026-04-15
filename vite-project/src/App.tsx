@@ -1,4 +1,4 @@
-import { DesafioSeis } from "./components/desafioSeis";
+import DesafioOito from "./components/desafioOito";
 
 
 
@@ -7,7 +7,7 @@ function App() {
     <main>
       <h1>Treinamento Frontend React + vite | Next</h1>
      
-     <DesafioSeis/>
+     <DesafioOito/>
       
     </main>
   );
